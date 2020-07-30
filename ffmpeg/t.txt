@@ -1,0 +1,1 @@
+ffmpeg -i rtmplocalhost1935livestream -cv copy -ca copy -map 0 -f tee [f=flv]rtmplive-sin.twitch.tvapplive_63668144_M3I9ylhBBQ3X2JMOVADgWEL109JXT9[f=flv]rtmpslive-api-s.facebook.com443rtmp2386776564959073s_bl=1&s_ps=1&s_sw=0&s_vt=api-s&a=AbzMTFosLZvKjHea

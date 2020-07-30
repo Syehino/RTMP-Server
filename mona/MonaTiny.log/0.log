@@ -1,0 +1,271 @@
+30/07 01:20:10.5  INFO   12540 Application.cpp[130]         MonaTiny v1.265
+30/07 01:20:10.6  NOTE   9692 Protocols.h[132]              RTMFP server started on 0.0.0.0:1935 (UDP)
+30/07 01:20:10.6  NOTE   9692 Protocols.h[132]              RTMP server started on 0.0.0.0:1935 (TCP)
+30/07 01:20:10.6  NOTE   9692 Protocols.h[132]              HTTP server started on 0.0.0.0:80 (TCP)
+30/07 01:20:10.6  NOTE   9692 Protocols.h[132]              WS server started on 0.0.0.0:80 (TCP)
+30/07 01:20:10.6  NOTE   9692 Protocols.h[132]              HTTPS server started on 0.0.0.0:443 (TCP)
+30/07 01:20:10.6  NOTE   9692 Protocols.h[132]              WSS server started on 0.0.0.0:443 (TCP)
+30/07 01:21:08.2  INFO   13008 Application.cpp[130]         MonaTiny v1.265
+30/07 01:21:08.3  NOTE   14216 Protocols.h[132]             RTMFP server started on 0.0.0.0:1935 (UDP)
+30/07 01:21:08.3  NOTE   14216 Protocols.h[132]             RTMP server started on 0.0.0.0:1935 (TCP)
+30/07 01:21:08.3  NOTE   14216 Protocols.h[132]             HTTP server started on 0.0.0.0:80 (TCP)
+30/07 01:21:08.3  NOTE   14216 Protocols.h[132]             WS server started on 0.0.0.0:80 (TCP)
+30/07 01:21:08.3  NOTE   14216 Protocols.h[132]             HTTPS server started on 0.0.0.0:443 (TCP)
+30/07 01:21:08.3  NOTE   14216 Protocols.h[132]             WSS server started on 0.0.0.0:443 (TCP)
+30/07 01:22:26.7  ERROR  14216 FlashMainStream.cpp[149]     Method client releaseStream not found in application /live
+30/07 01:22:26.7  ERROR  14216 FlashMainStream.cpp[149]     Method client FCPublish not found in application /live
+30/07 01:22:26.7  NOTE   14216 MonaTiny.cpp[157]            Client publish stream
+30/07 01:22:26.7  INFO   14216 Publication.cpp[105]         Publication stream started
+30/07 01:22:26.7  INFO   14216 Publication.cpp[378]         Write stream publication properties {1.2.1: false, 1.3.1: false, 1.4.0: false, 1.4.1: false, 1.5.1: false, 1.7.1: false, 1.audiochannels: 2, 1.audiocodecid: mp4a, 1.audiodatarate: 160, 1.audiosamplerate: 44100, 1.audiosamplesize: 16, 1.duration: 0, 1.encoder: obs-output module (libobs version 25.0.8), 1.fileSize: 0, 1.framerate: 60, 1.height: 720, 1.stereo: true, 1.videocodecid: avc1, 1.videodatarate: 6000, 1.width: 1280}
+30/07 01:22:28.3  INFO   14216 Server.cpp[124]              1 clients
+30/07 01:23:57.1  ERROR  14216 FlashMainStream.cpp[149]     Method client getStreamLength not found in application /live
+30/07 01:23:57.1  INFO   14216 MonaTiny.cpp[178]            RTMP 127.0.0.1:53660 subscribe to stream
+30/07 01:23:57.1  INFO   14216 FlashStream.cpp[130]         setBufferTime 3000ms on stream stream
+30/07 01:23:57.1  INFO   14216 Subscription.cpp[321]        Properties sent to one stream subscription
+30/07 01:23:58.3  INFO   14216 Server.cpp[124]              2 clients
+30/07 01:24:24.1  WARN   14216 TCPSession.cpp[32]           RTMP session 2, Connection aborted
+30/07 01:24:24.1  INFO   14216 MonaTiny.cpp[191]            RTMP 127.0.0.1:53660 unsubscribe to stream
+30/07 01:24:24.3  INFO   14216 Server.cpp[124]              1 clients
+30/07 01:41:42.8  ERROR  14216 FlashMainStream.cpp[149]     Method client getStreamLength not found in application /live
+30/07 01:41:42.8  INFO   14216 MonaTiny.cpp[178]            RTMP 127.0.0.1:53886 subscribe to stream
+30/07 01:41:42.8  INFO   14216 FlashStream.cpp[130]         setBufferTime 3000ms on stream stream
+30/07 01:41:42.8  INFO   14216 Subscription.cpp[321]        Properties sent to one stream subscription
+30/07 01:41:44.3  INFO   14216 Server.cpp[124]              2 clients
+30/07 01:41:58.1  WARN   14216 TCPSession.cpp[32]           RTMP session 2, Connection aborted
+30/07 01:41:58.1  INFO   14216 MonaTiny.cpp[191]            RTMP 127.0.0.1:53886 unsubscribe to stream
+30/07 01:41:58.3  INFO   14216 Server.cpp[124]              1 clients
+30/07 01:55:14.8  ERROR  14216 FlashMainStream.cpp[149]     Method client FCUnpublish not found in application /live
+30/07 01:55:14.8  INFO   14216 Publication.cpp[160]         Publication stream stopped
+30/07 01:55:14.8  NOTE   14216 MonaTiny.cpp[168]            Client unpublish stream
+30/07 01:55:14.8  WARN   13356 RTMP/RTMPSender.cpp[114]     Connection aborted (address=127.0.0.1:53637, size=152, flags=0)
+30/07 01:55:14.8  INFO   14216 Session.cpp[123]             RTMP session 1 timeout connection
+30/07 01:55:14.8  WARN   13356 RTMP/RTMPSender.cpp[114]     Connection aborted (address=127.0.0.1:53637, size=123, flags=0)
+30/07 01:55:14.8  INFO   14216 Server.cpp[124]              0 clients
+30/07 01:55:14.8  WARN   14216 TCPSession.cpp[32]           RTMP session 1, Connection aborted
+30/07 01:55:14.8  WARN   14216 TCPSession.cpp[32]           RTMP session 2, Connection aborted
+30/07 01:55:14.8  WARN   14216 TCPSession.cpp[32]           RTMP session 3, Connection aborted
+30/07 01:55:14.8  ERROR  7476 RTMP/RTMPDecoder.cpp[148]     RTMP Handshake, Connection aborted (address=127.0.0.1:53985, size=3073, flags=0)
+30/07 01:55:14.8  WARN   14216 TCPSession.cpp[32]           RTMP session 4, Connection aborted (from=0.0.0.0:0, size=2048, flags=0)
+30/07 01:55:14.8  ERROR  11100 RTMP/RTMPDecoder.cpp[148]    RTMP Handshake, Connection aborted (address=127.0.0.1:53993, size=3073, flags=0)
+30/07 01:55:14.8  WARN   14216 TCPSession.cpp[32]           RTMP session 6, Connection aborted (from=0.0.0.0:0, size=2048, flags=0)
+30/07 01:55:14.8  WARN   14216 TCPSession.cpp[32]           RTMP session 5, Connection aborted (from=0.0.0.0:0, size=2048, flags=0)
+30/07 01:55:14.8  WARN   14216 TCPSession.cpp[32]           RTMP session 7, Connection aborted
+30/07 01:56:15.0  ERROR  14216 FlashMainStream.cpp[149]     Method client getStreamLength not found in application /live
+30/07 01:56:15.0  INFO   14216 MonaTiny.cpp[178]            RTMP 127.0.0.1:54061 subscribe to stream
+30/07 01:56:15.0  INFO   14216 FlashStream.cpp[130]         setBufferTime 3000ms on stream stream
+30/07 01:56:16.8  INFO   14216 Server.cpp[124]              1 clients
+30/07 01:56:31.8  ERROR  14216 FlashMainStream.cpp[149]     Method client releaseStream not found in application /live
+30/07 01:56:31.8  ERROR  14216 FlashMainStream.cpp[149]     Method client FCPublish not found in application /live
+30/07 01:56:31.8  NOTE   14216 MonaTiny.cpp[157]            Client publish stream
+30/07 01:56:31.8  INFO   14216 Publication.cpp[105]         Publication stream started
+30/07 01:56:31.8  INFO   14216 Publication.cpp[378]         Write stream publication properties {1.2.1: false, 1.3.1: false, 1.4.0: false, 1.4.1: false, 1.5.1: false, 1.7.1: false, 1.audiochannels: 2, 1.audiocodecid: mp4a, 1.audiodatarate: 160, 1.audiosamplerate: 44100, 1.audiosamplesize: 16, 1.duration: 0, 1.encoder: obs-output module (libobs version 25.0.8), 1.fileSize: 0, 1.framerate: 60, 1.height: 720, 1.stereo: true, 1.videocodecid: avc1, 1.videodatarate: 6000, 1.width: 1280}
+30/07 01:56:31.8  INFO   14216 Subscription.cpp[321]        Properties sent to one stream subscription
+30/07 01:56:32.8  INFO   14216 Server.cpp[124]              2 clients
+30/07 01:56:59.0  ERROR  14216 FlashMainStream.cpp[149]     Method client FCUnpublish not found in application /live
+30/07 01:56:59.0  INFO   14216 Publication.cpp[160]         Publication stream stopped
+30/07 01:56:59.0  NOTE   14216 MonaTiny.cpp[168]            Client unpublish stream
+30/07 01:56:59.0  INFO   14216 MonaTiny.cpp[191]            RTMP 127.0.0.1:54061 unsubscribe to stream
+30/07 01:57:00.8  INFO   14216 Server.cpp[124]              0 clients
+30/07 01:59:12.0  ERROR  14216 FlashMainStream.cpp[149]     Method client getStreamLength not found in application /live
+30/07 01:59:12.0  INFO   14216 MonaTiny.cpp[178]            RTMP 127.0.0.1:54097 subscribe to stream
+30/07 01:59:12.0  INFO   14216 FlashStream.cpp[130]         setBufferTime 3000ms on stream stream
+30/07 01:59:12.9  INFO   14216 Server.cpp[124]              1 clients
+30/07 01:59:24.5  ERROR  14216 FlashMainStream.cpp[149]     Method client releaseStream not found in application /live
+30/07 01:59:24.5  ERROR  14216 FlashMainStream.cpp[149]     Method client FCPublish not found in application /live
+30/07 01:59:24.5  NOTE   14216 MonaTiny.cpp[157]            Client publish stream
+30/07 01:59:24.5  INFO   14216 Publication.cpp[105]         Publication stream started
+30/07 01:59:24.5  INFO   14216 Publication.cpp[378]         Write stream publication properties {1.2.1: false, 1.3.1: false, 1.4.0: false, 1.4.1: false, 1.5.1: false, 1.7.1: false, 1.audiochannels: 2, 1.audiocodecid: mp4a, 1.audiodatarate: 160, 1.audiosamplerate: 44100, 1.audiosamplesize: 16, 1.duration: 0, 1.encoder: obs-output module (libobs version 25.0.8), 1.fileSize: 0, 1.framerate: 60, 1.height: 720, 1.stereo: true, 1.videocodecid: avc1, 1.videodatarate: 6000, 1.width: 1280}
+30/07 01:59:24.5  INFO   14216 Subscription.cpp[321]        Properties sent to one stream subscription
+30/07 01:59:24.9  INFO   14216 Server.cpp[124]              2 clients
+30/07 02:00:06.2  ERROR  14216 FlashMainStream.cpp[149]     Method client FCUnpublish not found in application /live
+30/07 02:00:06.2  INFO   14216 Publication.cpp[160]         Publication stream stopped
+30/07 02:00:06.2  NOTE   14216 MonaTiny.cpp[168]            Client unpublish stream
+30/07 02:00:06.9  INFO   14216 Server.cpp[124]              1 clients
+30/07 02:00:17.7  WARN   14216 TCPSession.cpp[32]           RTMP session 1, Connection reseted (from=0.0.0.0:0, size=2048, flags=0)
+30/07 02:00:17.7  WARN   14216 TCPSession.cpp[32]           RTMP session 1, Connection aborted
+30/07 02:00:17.7  INFO   14216 MonaTiny.cpp[191]            RTMP 127.0.0.1:54097 unsubscribe to stream
+30/07 02:00:18.9  INFO   14216 Server.cpp[124]              0 clients
+30/07 02:47:10.2  ERROR  14216 FlashMainStream.cpp[149]     Method client getStreamLength not found in application /live
+30/07 02:47:10.2  INFO   14216 MonaTiny.cpp[178]            RTMP 127.0.0.1:54867 subscribe to stream
+30/07 02:47:10.2  INFO   14216 FlashStream.cpp[130]         setBufferTime 3000ms on stream stream
+30/07 02:47:11.6  INFO   14216 Server.cpp[124]              1 clients
+30/07 02:47:15.3  ERROR  14216 FlashMainStream.cpp[149]     Method client releaseStream not found in application /live
+30/07 02:47:15.3  ERROR  14216 FlashMainStream.cpp[149]     Method client FCPublish not found in application /live
+30/07 02:47:15.3  NOTE   14216 MonaTiny.cpp[157]            Client publish stream
+30/07 02:47:15.3  INFO   14216 Publication.cpp[105]         Publication stream started
+30/07 02:47:15.3  INFO   14216 Publication.cpp[378]         Write stream publication properties {1.2.1: false, 1.3.1: false, 1.4.0: false, 1.4.1: false, 1.5.1: false, 1.7.1: false, 1.audiochannels: 2, 1.audiocodecid: mp4a, 1.audiodatarate: 160, 1.audiosamplerate: 44100, 1.audiosamplesize: 16, 1.duration: 0, 1.encoder: obs-output module (libobs version 25.0.8), 1.fileSize: 0, 1.framerate: 60, 1.height: 720, 1.stereo: true, 1.videocodecid: avc1, 1.videodatarate: 6000, 1.width: 1280}
+30/07 02:47:15.3  INFO   14216 Subscription.cpp[321]        Properties sent to one stream subscription
+30/07 02:47:15.6  INFO   14216 Server.cpp[124]              2 clients
+30/07 02:48:55.9  ERROR  14216 FlashMainStream.cpp[149]     Method client FCUnpublish not found in application /live
+30/07 02:48:55.9  INFO   14216 Publication.cpp[160]         Publication stream stopped
+30/07 02:48:55.9  NOTE   14216 MonaTiny.cpp[168]            Client unpublish stream
+30/07 02:48:56.6  ERROR  14216 FlashMainStream.cpp[149]     Method client releaseStream not found in application /live
+30/07 02:48:56.6  ERROR  14216 FlashMainStream.cpp[149]     Method client FCPublish not found in application /live
+30/07 02:48:56.6  NOTE   14216 MonaTiny.cpp[157]            Client publish stream
+30/07 02:48:56.6  INFO   14216 Publication.cpp[105]         Publication stream started
+30/07 02:48:56.6  INFO   14216 Publication.cpp[378]         Write stream publication properties {1.2.1: false, 1.3.1: false, 1.4.0: false, 1.4.1: false, 1.5.1: false, 1.7.1: false, 1.audiochannels: 2, 1.audiocodecid: mp4a, 1.audiodatarate: 160, 1.audiosamplerate: 44100, 1.audiosamplesize: 16, 1.duration: 0, 1.encoder: obs-output module (libobs version 25.0.8), 1.fileSize: 0, 1.framerate: 60, 1.height: 720, 1.stereo: true, 1.videocodecid: avc1, 1.videodatarate: 6000, 1.width: 1280}
+30/07 02:48:56.6  INFO   14216 Subscription.cpp[321]        Properties sent to one stream subscription
+30/07 02:49:03.6  WARN   14216 Subscription.cpp[460]        Video timeout, insufficient bandwidth to play stream
+30/07 02:49:03.6  INFO   14216 MonaTiny.cpp[191]            RTMP 127.0.0.1:54867 unsubscribe to stream
+30/07 02:49:08.2  WARN   14216 TCPSession.cpp[32]           RTMP session 1, Connection reseted (from=0.0.0.0:0, size=2048, flags=0)
+30/07 02:49:08.2  WARN   14216 TCPSession.cpp[32]           RTMP session 1, Connection aborted
+30/07 02:49:09.6  INFO   14216 Server.cpp[124]              1 clients
+30/07 02:49:11.9  ERROR  14216 FlashMainStream.cpp[149]     Method client getStreamLength not found in application /live
+30/07 02:49:11.9  INFO   14216 MonaTiny.cpp[178]            RTMP 127.0.0.1:54954 subscribe to stream
+30/07 02:49:11.9  INFO   14216 FlashStream.cpp[130]         setBufferTime 3000ms on stream stream
+30/07 02:49:11.9  INFO   14216 Subscription.cpp[321]        Properties sent to one stream subscription
+30/07 02:49:13.6  INFO   14216 Server.cpp[124]              2 clients
+30/07 02:49:17.7  ERROR  14216 FlashMainStream.cpp[149]     Method client FCUnpublish not found in application /live
+30/07 02:49:17.7  INFO   14216 Publication.cpp[160]         Publication stream stopped
+30/07 02:49:17.7  NOTE   14216 MonaTiny.cpp[168]            Client unpublish stream
+30/07 02:49:19.6  INFO   14216 Server.cpp[124]              1 clients
+30/07 02:49:20.7  INFO   14216 MonaTiny.cpp[191]            RTMP 127.0.0.1:54954 unsubscribe to stream
+30/07 02:49:21.6  INFO   14216 Server.cpp[124]              0 clients
+30/07 02:49:22.7  ERROR  14216 FlashMainStream.cpp[149]     Method client getStreamLength not found in application /live
+30/07 02:49:22.7  INFO   14216 MonaTiny.cpp[178]            RTMP 127.0.0.1:54959 subscribe to stream
+30/07 02:49:22.7  INFO   14216 FlashStream.cpp[130]         setBufferTime 3000ms on stream stream
+30/07 02:49:23.6  INFO   14216 Server.cpp[124]              1 clients
+30/07 02:49:24.1  ERROR  14216 FlashMainStream.cpp[149]     Method client releaseStream not found in application /live
+30/07 02:49:24.1  ERROR  14216 FlashMainStream.cpp[149]     Method client FCPublish not found in application /live
+30/07 02:49:24.1  NOTE   14216 MonaTiny.cpp[157]            Client publish stream
+30/07 02:49:24.1  INFO   14216 Publication.cpp[105]         Publication stream started
+30/07 02:49:24.1  INFO   14216 Publication.cpp[378]         Write stream publication properties {1.2.1: false, 1.3.1: false, 1.4.0: false, 1.4.1: false, 1.5.1: false, 1.7.1: false, 1.audiochannels: 2, 1.audiocodecid: mp4a, 1.audiodatarate: 160, 1.audiosamplerate: 44100, 1.audiosamplesize: 16, 1.duration: 0, 1.encoder: obs-output module (libobs version 25.0.8), 1.fileSize: 0, 1.framerate: 60, 1.height: 720, 1.stereo: true, 1.videocodecid: avc1, 1.videodatarate: 6000, 1.width: 1280}
+30/07 02:49:24.1  INFO   14216 Subscription.cpp[321]        Properties sent to one stream subscription
+30/07 02:49:25.6  INFO   14216 Server.cpp[124]              2 clients
+30/07 04:29:22.2  ERROR  14216 FlashMainStream.cpp[149]     Method client FCUnpublish not found in application /live
+30/07 04:29:22.2  INFO   14216 Publication.cpp[160]         Publication stream stopped
+30/07 04:29:22.2  NOTE   14216 MonaTiny.cpp[168]            Client unpublish stream
+30/07 04:29:23.8  INFO   14216 Server.cpp[124]              1 clients
+30/07 04:29:36.1  WARN   14216 TCPSession.cpp[32]           RTMP session 1, Connection reseted (from=0.0.0.0:0, size=2048, flags=0)
+30/07 04:29:36.1  WARN   14216 TCPSession.cpp[32]           RTMP session 1, Connection aborted
+30/07 04:29:36.1  INFO   14216 MonaTiny.cpp[191]            RTMP 127.0.0.1:54959 unsubscribe to stream
+30/07 04:29:37.8  INFO   14216 Server.cpp[124]              0 clients
+30/07 20:47:15.2  INFO   2948 Application.cpp[130]          MonaTiny v1.265
+30/07 20:47:15.3  NOTE   8816 Protocols.h[132]              RTMFP server started on 0.0.0.0:1935 (UDP)
+30/07 20:47:15.3  NOTE   8816 Protocols.h[132]              RTMP server started on 0.0.0.0:1935 (TCP)
+30/07 20:47:15.3  NOTE   8816 Protocols.h[132]              HTTP server started on 0.0.0.0:80 (TCP)
+30/07 20:47:15.3  NOTE   8816 Protocols.h[132]              WS server started on 0.0.0.0:80 (TCP)
+30/07 20:47:15.3  NOTE   8816 Protocols.h[132]              HTTPS server started on 0.0.0.0:443 (TCP)
+30/07 20:47:15.3  NOTE   8816 Protocols.h[132]              WSS server started on 0.0.0.0:443 (TCP)
+30/07 20:47:18.4  INFO   8816 Server.cpp[175]               Server memory release
+30/07 20:47:18.4  NOTE   8816 Server.cpp[179]               Server stopped
+30/07 20:49:24.9  INFO   716 Application.cpp[130]           MonaTiny v1.265
+30/07 20:49:25.0  NOTE   12256 Protocols.h[132]             RTMFP server started on 0.0.0.0:1935 (UDP)
+30/07 20:49:25.0  NOTE   12256 Protocols.h[132]             RTMP server started on 0.0.0.0:1935 (TCP)
+30/07 20:49:25.0  NOTE   12256 Protocols.h[132]             HTTP server started on 0.0.0.0:80 (TCP)
+30/07 20:49:25.0  NOTE   12256 Protocols.h[132]             WS server started on 0.0.0.0:80 (TCP)
+30/07 20:49:25.0  NOTE   12256 Protocols.h[132]             HTTPS server started on 0.0.0.0:443 (TCP)
+30/07 20:49:25.0  NOTE   12256 Protocols.h[132]             WSS server started on 0.0.0.0:443 (TCP)
+30/07 20:49:27.0  INFO   12256 Server.cpp[175]              Server memory release
+30/07 20:49:27.0  NOTE   12256 Server.cpp[179]              Server stopped
+30/07 20:49:43.7  INFO   10480 Application.cpp[130]         MonaTiny v1.265
+30/07 20:49:43.8  NOTE   1136 Protocols.h[132]              RTMFP server started on 0.0.0.0:1935 (UDP)
+30/07 20:49:43.8  NOTE   1136 Protocols.h[132]              RTMP server started on 0.0.0.0:1935 (TCP)
+30/07 20:49:43.8  NOTE   1136 Protocols.h[132]              HTTP server started on 0.0.0.0:80 (TCP)
+30/07 20:49:43.8  NOTE   1136 Protocols.h[132]              WS server started on 0.0.0.0:80 (TCP)
+30/07 20:49:43.8  NOTE   1136 Protocols.h[132]              HTTPS server started on 0.0.0.0:443 (TCP)
+30/07 20:49:43.8  NOTE   1136 Protocols.h[132]              WSS server started on 0.0.0.0:443 (TCP)
+30/07 20:49:47.3  INFO   1136 Server.cpp[175]               Server memory release
+30/07 20:49:47.3  NOTE   1136 Server.cpp[179]               Server stopped
+30/07 20:51:55.1  INFO   11256 Application.cpp[130]         MonaTiny v1.265
+30/07 20:51:55.2  NOTE   2596 Protocols.h[132]              RTMFP server started on 0.0.0.0:1935 (UDP)
+30/07 20:51:55.2  NOTE   2596 Protocols.h[132]              RTMP server started on 0.0.0.0:1935 (TCP)
+30/07 20:51:55.2  NOTE   2596 Protocols.h[132]              HTTP server started on 0.0.0.0:80 (TCP)
+30/07 20:51:55.2  NOTE   2596 Protocols.h[132]              WS server started on 0.0.0.0:80 (TCP)
+30/07 20:51:55.2  NOTE   2596 Protocols.h[132]              HTTPS server started on 0.0.0.0:443 (TCP)
+30/07 20:51:55.2  NOTE   2596 Protocols.h[132]              WSS server started on 0.0.0.0:443 (TCP)
+30/07 20:52:25.1  INFO   6424 Application.cpp[130]          MonaTiny v1.265
+30/07 20:52:25.2  NOTE   2712 Protocols.h[132]              RTMFP server started on 0.0.0.0:1935 (UDP)
+30/07 20:52:25.2  NOTE   2712 Protocols.h[132]              RTMP server started on 0.0.0.0:1935 (TCP)
+30/07 20:52:25.2  NOTE   2712 Protocols.h[132]              HTTP server started on 0.0.0.0:80 (TCP)
+30/07 20:52:25.2  NOTE   2712 Protocols.h[132]              WS server started on 0.0.0.0:80 (TCP)
+30/07 20:52:25.2  NOTE   2712 Protocols.h[132]              HTTPS server started on 0.0.0.0:443 (TCP)
+30/07 20:52:25.2  NOTE   2712 Protocols.h[132]              WSS server started on 0.0.0.0:443 (TCP)
+30/07 20:52:27.1  INFO   2712 Server.cpp[175]               Server memory release
+30/07 20:52:27.1  NOTE   2712 Server.cpp[179]               Server stopped
+30/07 20:54:38.9  INFO   5100 Application.cpp[130]          MonaTiny v1.265
+30/07 20:54:39.0  NOTE   6528 Protocols.h[132]              RTMFP server started on 0.0.0.0:1935 (UDP)
+30/07 20:54:39.0  NOTE   6528 Protocols.h[132]              RTMP server started on 0.0.0.0:1935 (TCP)
+30/07 20:54:39.0  NOTE   6528 Protocols.h[132]              HTTP server started on 0.0.0.0:80 (TCP)
+30/07 20:54:39.0  NOTE   6528 Protocols.h[132]              WS server started on 0.0.0.0:80 (TCP)
+30/07 20:54:39.0  NOTE   6528 Protocols.h[132]              HTTPS server started on 0.0.0.0:443 (TCP)
+30/07 20:54:39.0  NOTE   6528 Protocols.h[132]              WSS server started on 0.0.0.0:443 (TCP)
+30/07 20:59:43.8  ERROR  6528 FlashMainStream.cpp[149]      Method client getStreamLength not found in application /live
+30/07 20:59:43.8  INFO   6528 MonaTiny.cpp[178]             RTMP 127.0.0.1:60789 subscribe to stream
+30/07 20:59:43.8  INFO   6528 FlashStream.cpp[130]          setBufferTime 3000ms on stream stream
+30/07 20:59:45.1  INFO   6528 Server.cpp[124]               1 clients
+30/07 21:02:31.3  ERROR  6528 FlashMainStream.cpp[149]      Method client releaseStream not found in application /live
+30/07 21:02:31.3  ERROR  6528 FlashMainStream.cpp[149]      Method client FCPublish not found in application /live
+30/07 21:02:31.3  NOTE   6528 MonaTiny.cpp[157]             Client publish stream
+30/07 21:02:31.3  INFO   6528 Publication.cpp[105]          Publication stream started
+30/07 21:02:31.3  INFO   6528 Publication.cpp[378]          Write stream publication properties {1.2.1: false, 1.3.1: false, 1.4.0: false, 1.4.1: false, 1.5.1: false, 1.7.1: false, 1.audiochannels: 2, 1.audiocodecid: mp4a, 1.audiodatarate: 160, 1.audiosamplerate: 44100, 1.audiosamplesize: 16, 1.duration: 0, 1.encoder: streamlabs-obs output module (libobs version 25.20.9), 1.fileSize: 0, 1.framerate: 60, 1.height: 720, 1.stereo: true, 1.videocodecid: avc1, 1.videodatarate: 6000, 1.width: 1280}
+30/07 21:02:31.3  INFO   6528 Subscription.cpp[321]         Properties sent to one stream subscription
+30/07 21:02:33.1  WARN   6528 TCPSession.cpp[32]            RTMP session 1, Connection reseted (from=0.0.0.0:0, size=42, flags=0)
+30/07 21:02:33.1  WARN   6528 TCPSession.cpp[32]            RTMP session 1, Connection aborted
+30/07 21:02:33.1  INFO   6528 MonaTiny.cpp[191]             RTMP 127.0.0.1:60789 unsubscribe to stream
+30/07 21:04:18.3  ERROR  6528 FlashMainStream.cpp[149]      Method client FCUnpublish not found in application /live
+30/07 21:04:18.3  INFO   6528 Publication.cpp[160]          Publication stream stopped
+30/07 21:04:18.3  NOTE   6528 MonaTiny.cpp[168]             Client unpublish stream
+30/07 21:04:19.2  INFO   6528 Server.cpp[124]               0 clients
+30/07 21:05:36.8  ERROR  6528 FlashMainStream.cpp[149]      Method client getStreamLength not found in application /live
+30/07 21:05:36.8  INFO   6528 MonaTiny.cpp[178]             RTMP 127.0.0.1:60956 subscribe to stream
+30/07 21:05:36.8  INFO   6528 FlashStream.cpp[130]          setBufferTime 3000ms on stream stream
+30/07 21:05:37.2  INFO   6528 Server.cpp[124]               1 clients
+30/07 21:05:43.5  ERROR  6528 FlashMainStream.cpp[149]      Method client releaseStream not found in application /live
+30/07 21:05:43.5  ERROR  6528 FlashMainStream.cpp[149]      Method client FCPublish not found in application /live
+30/07 21:05:43.5  NOTE   6528 MonaTiny.cpp[157]             Client publish stream
+30/07 21:05:43.5  INFO   6528 Publication.cpp[105]          Publication stream started
+30/07 21:05:43.5  INFO   6528 Publication.cpp[378]          Write stream publication properties {1.2.1: false, 1.3.1: false, 1.4.0: false, 1.4.1: false, 1.5.1: false, 1.7.1: false, 1.audiochannels: 2, 1.audiocodecid: mp4a, 1.audiodatarate: 160, 1.audiosamplerate: 44100, 1.audiosamplesize: 16, 1.duration: 0, 1.encoder: streamlabs-obs output module (libobs version 25.20.9), 1.fileSize: 0, 1.framerate: 60, 1.height: 720, 1.stereo: true, 1.videocodecid: avc1, 1.videodatarate: 6000, 1.width: 1280}
+30/07 21:05:43.5  INFO   6528 Subscription.cpp[321]         Properties sent to one stream subscription
+30/07 21:05:45.2  INFO   6528 Server.cpp[124]               2 clients
+30/07 21:08:44.8  ERROR  6528 FlashMainStream.cpp[149]      Method client FCUnpublish not found in application /live
+30/07 21:08:44.8  INFO   6528 Publication.cpp[160]          Publication stream stopped
+30/07 21:08:44.8  NOTE   6528 MonaTiny.cpp[168]             Client unpublish stream
+30/07 21:08:45.2  INFO   6528 Server.cpp[124]               1 clients
+30/07 21:08:48.6  WARN   6528 TCPSession.cpp[32]            RTMP session 1, Connection reseted (from=0.0.0.0:0, size=2048, flags=0)
+30/07 21:08:48.6  WARN   6528 TCPSession.cpp[32]            RTMP session 1, Connection aborted
+30/07 21:08:48.6  INFO   6528 MonaTiny.cpp[191]             RTMP 127.0.0.1:60956 unsubscribe to stream
+30/07 21:08:49.2  INFO   6528 Server.cpp[124]               0 clients
+30/07 21:09:49.4  INFO   6528 Server.cpp[175]               Server memory release
+30/07 21:09:49.4  NOTE   6528 Server.cpp[179]               Server stopped
+30/07 21:11:31.4  INFO   3592 Application.cpp[130]          MonaTiny v1.265
+30/07 21:11:31.5  NOTE   13240 Protocols.h[132]             RTMFP server started on 0.0.0.0:1935 (UDP)
+30/07 21:11:31.5  NOTE   13240 Protocols.h[132]             RTMP server started on 0.0.0.0:1935 (TCP)
+30/07 21:11:31.5  NOTE   13240 Protocols.h[132]             HTTP server started on 0.0.0.0:80 (TCP)
+30/07 21:11:31.5  NOTE   13240 Protocols.h[132]             WS server started on 0.0.0.0:80 (TCP)
+30/07 21:11:31.5  NOTE   13240 Protocols.h[132]             HTTPS server started on 0.0.0.0:443 (TCP)
+30/07 21:11:31.5  NOTE   13240 Protocols.h[132]             WSS server started on 0.0.0.0:443 (TCP)
+30/07 21:11:40.7  ERROR  13240 FlashMainStream.cpp[149]     Method client getStreamLength not found in application /live
+30/07 21:11:40.7  INFO   13240 MonaTiny.cpp[178]            RTMP 127.0.0.1:61051 subscribe to stream
+30/07 21:11:40.7  INFO   13240 FlashStream.cpp[130]         setBufferTime 3000ms on stream stream
+30/07 21:11:41.5  INFO   13240 Server.cpp[124]              1 clients
+30/07 21:11:44.2  INFO   13240 MonaTiny.cpp[191]            RTMP 127.0.0.1:61051 unsubscribe to stream
+30/07 21:11:45.5  INFO   13240 Server.cpp[124]              0 clients
+30/07 21:11:49.2  INFO   13240 Server.cpp[175]              Server memory release
+30/07 21:11:49.2  NOTE   13240 Server.cpp[179]              Server stopped
+30/07 21:13:03.4  INFO   3172 Application.cpp[130]          MonaTiny v1.265
+30/07 21:13:03.5  NOTE   13828 Protocols.h[132]             RTMFP server started on 0.0.0.0:1935 (UDP)
+30/07 21:13:03.5  NOTE   13828 Protocols.h[132]             RTMP server started on 0.0.0.0:1935 (TCP)
+30/07 21:13:03.5  NOTE   13828 Protocols.h[132]             HTTP server started on 0.0.0.0:80 (TCP)
+30/07 21:13:03.5  NOTE   13828 Protocols.h[132]             WS server started on 0.0.0.0:80 (TCP)
+30/07 21:13:03.5  NOTE   13828 Protocols.h[132]             HTTPS server started on 0.0.0.0:443 (TCP)
+30/07 21:13:03.5  NOTE   13828 Protocols.h[132]             WSS server started on 0.0.0.0:443 (TCP)
+30/07 21:13:03.8  ERROR  13828 FlashMainStream.cpp[149]     Method client getStreamLength not found in application /live
+30/07 21:13:03.8  INFO   13828 MonaTiny.cpp[178]            RTMP 127.0.0.1:61054 subscribe to stream
+30/07 21:13:03.8  INFO   13828 FlashStream.cpp[130]         setBufferTime 3000ms on stream stream
+30/07 21:13:05.5  INFO   13828 Server.cpp[124]              1 clients
+30/07 21:13:21.8  ERROR  13828 FlashMainStream.cpp[149]     Method client releaseStream not found in application /live
+30/07 21:13:21.8  ERROR  13828 FlashMainStream.cpp[149]     Method client FCPublish not found in application /live
+30/07 21:13:21.8  NOTE   13828 MonaTiny.cpp[157]            Client publish stream
+30/07 21:13:21.8  INFO   13828 Publication.cpp[105]         Publication stream started
+30/07 21:13:21.8  INFO   13828 Publication.cpp[378]         Write stream publication properties {1.2.1: false, 1.3.1: false, 1.4.0: false, 1.4.1: false, 1.5.1: false, 1.7.1: false, 1.audiochannels: 2, 1.audiocodecid: mp4a, 1.audiodatarate: 160, 1.audiosamplerate: 44100, 1.audiosamplesize: 16, 1.duration: 0, 1.encoder: streamlabs-obs output module (libobs version 25.20.9), 1.fileSize: 0, 1.framerate: 60, 1.height: 720, 1.stereo: true, 1.videocodecid: avc1, 1.videodatarate: 6000, 1.width: 1280}
+30/07 21:13:21.8  INFO   13828 Subscription.cpp[321]        Properties sent to one stream subscription
+30/07 21:13:23.5  INFO   13828 Server.cpp[124]              2 clients
+30/07 21:14:00.0  ERROR  13828 FlashMainStream.cpp[149]     Method client FCUnpublish not found in application /live
+30/07 21:14:00.0  INFO   13828 Publication.cpp[160]         Publication stream stopped
+30/07 21:14:00.0  NOTE   13828 MonaTiny.cpp[168]            Client unpublish stream
+30/07 21:14:01.5  INFO   13828 Server.cpp[124]              1 clients
+30/07 21:14:04.0  INFO   13828 MonaTiny.cpp[191]            RTMP 127.0.0.1:61054 unsubscribe to stream
+30/07 21:14:05.5  INFO   13828 Server.cpp[124]              0 clients
+30/07 21:14:12.8  INFO   13828 Server.cpp[175]              Server memory release
+30/07 21:14:12.8  NOTE   13828 Server.cpp[179]              Server stopped
