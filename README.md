@@ -20,3 +20,6 @@ OBS Setup
 6. Close the CMD Windows when you are done
 
 Alternatively you can download MonaServer and FFMPEG from their website to make sure you get the latest versions.
+
+MonaServer - https://sourceforge.net/projects/monaserver/files/MonaServer_Win32.zip/download
+FFMPEG - https://ffmpeg.org/
