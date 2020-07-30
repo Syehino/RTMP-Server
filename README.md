@@ -21,5 +21,6 @@ OBS Setup
 
 Alternatively you can download MonaServer and FFMPEG from their website to make sure you get the latest versions.
 
-MonaServer - https://sourceforge.net/projects/monaserver/files/MonaServer_Win32.zip/download
+MonaServer - https://sourceforge.net/projects/monaserver/files/MonaTiny/MonaTiny_Win64.zip/download
+
 FFMPEG - https://ffmpeg.org/
